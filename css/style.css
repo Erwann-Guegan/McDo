@@ -4,6 +4,12 @@ body{
 }
 
 
+#contenu{
+    background-color: thistle;
+
+}
+
+
 
 #contenu #information{
     width: 200px;
@@ -11,17 +17,35 @@ body{
     background-color:white;
     z-index:1;
     position: relative;
-    top: -200px;
+    top: -220px;
     left: 25%;
-    opacity: 0.5;
+    font-size: 25px;   
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 15px;
+    line-height: 125%;
+    text-align: left;
+    border-radius: 15px;;
 }
 
-h1{
-    color: black;
-    margin-top: 200px;
-    margin-left: 85 0px;
- 
+#contenu #information span{
 
+    font-size: 35px;   
+
+}
+
+#contenu #information #boutton{
+    background-color: thistle;
+    width: 100px;
+    height: 25px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+#contenu #information #boutton p{
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
 }
 
 #contenu img{
@@ -31,4 +55,31 @@ h1{
     top: 150px;
     left: 20%;
 }
+
+h1{
+    color: black;
+    margin-top: -50px;
+    margin-left: 850px;
+    font-size: 20px;
+}
+
+
+
+
+#first{
+    margin-top: 90px;
+    margin-left: 650px;
+    font-size: 40px;
+
+}
+
+
+#second{
+    margin-top: -10px;;
+    margin-left: 750px;
+    font-size: 40px;
+
+}
+
+
 
