@@ -20,6 +20,9 @@ nav{
     align-items:center;
     justify-content:center;
     padding-top:35px;
+    width:1400px;
+    margin:auto;
+    justify-content: space-around;
 }
 ul{
     font-size:1.2rem;
@@ -29,5 +32,5 @@ ul{
     align-items: center;
 }
 li,.logo{
-    margin:50px;
+    margin:40px;
 }
