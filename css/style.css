@@ -1,13 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-}
-
-
-#contenu{
-    background-color: thistle;
 
 }
+
+
+
 
 
 
@@ -25,7 +23,8 @@ body{
     padding-top: 15px;
     line-height: 125%;
     text-align: left;
-    border-radius: 15px;;
+    border-radius: 15px;
+
 }
 
 #contenu #information span{
@@ -40,12 +39,14 @@ body{
     height: 25px;
     margin-left: 40px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #contenu #information #boutton p{
     font-weight: lighter;
     font-size: 15px;
-    text-align: center;
 }
 
 #contenu img{
@@ -59,8 +60,9 @@ body{
 h1{
     color: black;
     margin-top: -50px;
-    margin-left: 850px;
     font-size: 20px;
+    text-align: center;
+
 }
 
 
