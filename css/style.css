@@ -2,3 +2,16 @@ body{
     margin: 0;
     padding: 0,
 }
+
+
+
+
+
+
+#contenu img{
+    width: 60%;
+    height: 60%;   
+    position: relative;
+    top: 150px;
+    left: 20%;
+}
