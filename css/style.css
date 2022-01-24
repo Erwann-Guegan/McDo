@@ -1,14 +1,27 @@
 body{
     margin: 0;
-    padding: 0,
+    padding: 0;
 }
 
 
 
+#contenu #information{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    z-index:1;
+    position: relative;
+    top: -200px;
+    left: 25%;
+    opacity: 0.5;
+}
 
-#contenu{
-    
-    background-color: grey;
+h1{
+    color: black;
+    margin-top: 200px;
+    margin-left: 85 0px;
+ 
+
 }
 
 #contenu img{
