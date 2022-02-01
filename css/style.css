@@ -33,6 +33,12 @@ body{
 
 }
 
+#contenu #information p{
+
+    padding: 5px;
+
+}
+
 #contenu #information #boutton{
     background-color: thistle;
     width: 100px;
@@ -42,6 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
 }
 
 #contenu #information #boutton p{
