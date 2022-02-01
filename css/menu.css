@@ -32,7 +32,7 @@ ul{
     justify-content:center;
     align-items: center;
 }
-li,.logo{
+.logo{
     margin:20px;
 }
 .connecter{
@@ -49,4 +49,27 @@ li,.logo{
     padding:10px;
     border-radius: 4px;
     text-align:center;
+}
+li:hover,ul:hover{
+    cursor: pointer;
+}
+
+li::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+li:hover::after {
+    transform: scaleX(1);
+  }
+li{
+    position: relative;
+    padding:34px;
 }
