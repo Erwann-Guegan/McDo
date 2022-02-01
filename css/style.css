@@ -9,55 +9,7 @@ body{
 
 
 
-#contenu #information{
-    width: 20%;
-    height: 20%;
-    background-color:white;
-    z-index:1;
-    position: relative;
-    left: 5%;
-    font-size: 2vw;   
-    font-weight: bold;
-    padding-left: 1vw;
-    padding-top: 1vh;
-    line-height: 125%;
-    text-align: left;
-    border-radius: 2.6vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
-
-#contenu #information span{
-
-    font-size: 3vw;  
-    text-decoration: underline; 
-
-}
-
-#contenu #information p{
-
-    padding: 0.5vw;
-
-}
-
-#contenu #information #boutton{
-    background-color: thistle;
-    width: 10vw;
-    height: 3vh;
-    border-radius: 1vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5vh;
-}
-
-#contenu #information #boutton p{
-    font-weight: lighter;
-    font-size: 0.8rem;
-}
 
 #contenu img{
     width: 60%;
@@ -69,7 +21,7 @@ body{
 
 h1{
     color: black;
-    margin-top: -5vh;
+    margin-top: 10vh;
     font-size: 1.2rem;
     text-align: center;
 
