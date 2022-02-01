@@ -3,77 +3,35 @@ body{
     padding: 0;
     font-family: "Arimo";
 }
-#contenu #information{
-    width: 200px;
-    height: 200px;
-    background-color:white;
-    z-index:1;
-    position: relative;
-    top: -220px;
-    left: 25%;
-    font-size: 25px;   
-    font-weight: bold;
-    padding-left: 10px;
-    padding-top: 15px;
-    line-height: 125%;
-    text-align: left;
-    border-radius: 15px;
-
-}
-
-#contenu #information span{
-
-    font-size: 35px;   
-
-}
-
-#contenu #information #boutton{
-    background-color: thistle;
-    width: 100px;
-    height: 25px;
-    margin-left: 40px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#contenu #information #boutton p{
-    font-weight: lighter;
-    font-size: 15px;
-}
 
 #contenu img{
     width: 60%;
     height: 60%;   
     position: relative;
-    top: 150px;
-    left: 20%;
+    top: 10vh;
+    left: 20vw;
 }
 
 h1{
     color: black;
-    margin-top: -50px;
-    font-size: 20px;
+    margin-top: 10vh;
+    font-size: 1.2rem;
     text-align: center;
 
 }
 
-
-
-
 #first{
-    margin-top: 90px;
-    margin-left: 650px;
-    font-size: 40px;
-
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 2rem;
 }
 
 
 #second{
-    margin-top: -10px;;
-    margin-left: 750px;
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
 
 }
 
