@@ -4,17 +4,11 @@ body{
     font-family: "Arimo";
 }
 
-#contenu img{
-    width: 60%;
-    height: 60%;   
-    position: relative;
-    top: 10vh;
-    left: 20vw;
-}
+
 
 h1{
     color: black;
-    margin-top: 10vh;
+    margin-top: 5vh;
     font-size: 1.2rem;
     text-align: center;
 
@@ -36,6 +30,7 @@ h1{
 }
 
 .w3-content{
+    margin-top: 10vh;
     height: 50vh;
     display: flex;
     justify-content: center;
