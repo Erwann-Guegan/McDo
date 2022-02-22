@@ -2,12 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css" >
     <link rel="stylesheet" href="css/font.css" >
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <title>McDonald's France</title>
 </head>
 <body>
@@ -41,9 +42,20 @@
         
         
         <h2 id="first">Vous êtes le bienvenue chez McDonalds.</h2><h2 id="second">Venez comme vous êtes.</h2>
-        
-        
+        <h2 class="w3-center">Manual Slideshow</h2>
 
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/veggie-mc-spice.jpg">
+  <img class="mySlides" src="img/menu_burger.jpg">
+  <img class="mySlides" src="img/Mcdonalds-M.jpg">
 
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+        <script src="js/slider.js"></script>
+           
+       
+    
 </body>
 </html>
